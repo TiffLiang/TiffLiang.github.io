@@ -6,16 +6,3 @@ plugins:
 title: "Tiffany Liang"
 author: "me"
 description: "A personal showcase of my work."
-lang: "en"
-excerpt_separator: "\n\n\n"
-date_format: "%B %d, %Y"
-
-# Layout
-show_social: true
-
-# Menu
-navigation:
-- {file: "index.html", title:"Home", icon: home}
-
-external:
-- {title: LinkedIn, url:""}
