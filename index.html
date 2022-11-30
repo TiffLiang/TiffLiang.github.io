@@ -1,20 +1,97 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
-<link rel="stylesheet" href="personal_website.css">
+	<title>Portfolio website</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
+	<!----hero Section start---->
 
-<h1>Tiffany Liang</h1>
-<img src=”tiff_and_katie.png” />
+	<div class="hero">
+		<nav>
+			<h2 class="logo">Portfolio</h2>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About Me</a></li>
+				<li><a href="#">Articles</a></li>
+				<li><a href="#">Projects</a></li>
+			</ul>
+			<a href="https://www.linkedin.com/in/tiff-liang/" class="btn">LinkedIn</a>
+		</nav>
 
+		<div class="content">
+			<h3>Hello, my name is</h3>
+			<h1>Tiffany <span>Liang</span></h1>
+			<h4>Aspiring Data Scientist & Writer</h4>
+		</div>
+	</div>
 
-<p class="blue"> Hi! I'm a data science major with a concentration in linguistics. </p>
- 
-<p class="red"> I am from Highland Park, New Jersey. It's a pretty unexciting small town right next to Rutgers University, our state school. </p>
-  
-<p class="green"> I really like reading webcomics ("Omniscient Reader" is my favorite) and watching an ungodly amount of videos on skincare. I hope to get back into working out consistently and lifting again. </p>
+	<!----About section start---->
+	<section class="about">
+		<div class="main">
+			<img src="img/main-tiff.jpg">
+			<div class="about-text">
+				<h2>About Me</h2>
+				<p> I am an undergraduate data science student at the University of California, Berkeley (Class of '23). 
+					Go Bears! I enjoy writing, reading Webtoons (Omniscent Reader is my favorite), and hiking Berkeley's 
+					beautiful trails. 
+				</p>
+				<button type="button">Let's Connect</button>
+			</div>
+		</div>
+	</section>
 
+	<!-----service section start----------->
+	<div class="service">
+		<div class="title">
+			<h2>Articles</h2>
+		</div>
+
+		<div class="box">
+			<div class="card">
+				<i class="fas fa-trash-alt"></i>
+				<h5>Biodegradable Plastic</h5>
+				<div class="pra">
+					<p>It's promising... but is it a viable solution?</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="https://bsj.berkeley.edu/biodegradable-plasticpromising-but-not-yet-a-solution-for-plastic-pollution/">Read More</a>
+					</p>
+				</div>
+			</div>
+			
+			<div class="card">
+				<i class="fas fa-balance-scale"></i>
+				<h5>A Rising Form of Environmental Activism: Litigation </h5>
+				<div class="pra">
+					<p>Can lawsuits be effectively used to fight climate change?</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="https://issuu.com/berkeleyperennial/docs/perennial_issue_no._1_issuu">Read More</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="far fa-lightbulb"></i>
+				<h5>Discovery Program x MEJ</h5>
+				<div class="pra">
+					<p>How can data science be applied to environmental justice?</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="https://data.berkeley.edu/news/discovery-program-x-mej-undergraduates-apply-data-science-environmental-justice">Read More</a>
+					</p>
+				</div>
+			</div>
+
+			
+		</div>
+	</div>
 </body>
 </html>
